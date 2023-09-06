@@ -67,10 +67,6 @@ const Header = () => {
             </DrawerBody>
 
             <DrawerFooter bgColor={'whiteAlpha.900'}>
-              <HStack gap={'20px'} >
-              <Button colorScheme="green" fontSize={'1.3rem'} mr={'40px'} ><BsWhatsapp /></Button>
-              <Button colorScheme="purple" fontSize={'1.3rem'} mr={'70px'} ><BsInstagram /></Button>
-              </HStack>
             </DrawerFooter>
           </DrawerContent>
         </Drawer>
