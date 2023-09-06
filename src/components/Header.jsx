@@ -38,7 +38,7 @@ const Header = () => {
             <DrawerHeader borderBottomWidth={"2px"} textAlign={'center'}>EVENTOPIA</DrawerHeader>
 
             <DrawerBody>
-              <VStack gap={'20px'}>
+              <VStack gap={['15px','30px']}>
                 <Link to={"/"}>
                   <Button onClick={onClose} variant={'ghost'} colorScheme="purple" fontSize={'1.1rem'}>
                     Home
