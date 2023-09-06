@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 import "./styles/App.scss"
 import "./styles/Home.scss"
-import "./styles/Do.scss"
+import "./styles/do.scss"
 import "./styles/CardStyle.scss"
 import "./styles/Footer.scss"
 import "./styles/Header.scss"
