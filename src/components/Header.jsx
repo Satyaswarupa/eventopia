@@ -66,7 +66,7 @@ const Header = () => {
               </VStack>
             </DrawerBody>
 
-            <DrawerFooter bgColor={'whiteAlpha.900'}>
+            <DrawerFooter h={'5px'}>
             </DrawerFooter>
           </DrawerContent>
         </Drawer>
