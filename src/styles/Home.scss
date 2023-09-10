@@ -28,12 +28,8 @@
 
 .landing-page {
   height: 100vh;
-  background: rgb(204, 21, 101);
-  background: radial-gradient(
-    circle,
-    rgba(204, 21, 101, 1) 0%,
-    rgba(2, 3, 28, 1) 100%
-  );
+  background: rgb(5,14,48);
+  background: radial-gradient(circle, rgb(45, 2, 48) 0%, rgba(0,0,0,1) 100%);
 }
 
 .landing-page .content .container {
@@ -65,6 +61,7 @@
   color: #ffdc19;
   font-size: 44px;
   font-family: "Signika Negative", sans-serif;
+  -webkit-text-stroke: 1px #353030;
 
   @media (max-width: 767px) {
     font-size: 28px;
@@ -176,5 +173,11 @@ img {
 @media (max-width: 767px) {
   .info {
     margin-top: 40px;
+  }
+  .sbg{
+    color: #eee;
+    margin: -30px 0px 0px 160px;
+    font-size: 1.5rem;
+    
   }
 }

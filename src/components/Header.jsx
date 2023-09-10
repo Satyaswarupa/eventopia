@@ -38,7 +38,7 @@ const Header = () => {
             <DrawerHeader borderBottomWidth={"2px"} textAlign={'center'}>EVENTOPIA</DrawerHeader>
 
             <DrawerBody>
-              <VStack gap={'20px'}>
+              <VStack gap={['15px','30px']}>
                 <Link to={"/"}>
                   <Button onClick={onClose} variant={'ghost'} colorScheme="purple" fontSize={'1.1rem'}>
                     Home
@@ -67,10 +67,6 @@ const Header = () => {
             </DrawerBody>
 
             <DrawerFooter bgColor={'whiteAlpha.900'}>
-              <HStack gap={'20px'} >
-              <Button colorScheme="green" fontSize={'1.3rem'} mr={'40px'} ><BsWhatsapp /></Button>
-              <Button colorScheme="purple" fontSize={'1.3rem'} mr={'70px'} ><BsInstagram /></Button>
-              </HStack>
             </DrawerFooter>
           </DrawerContent>
         </Drawer>

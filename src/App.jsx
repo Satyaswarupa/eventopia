@@ -7,15 +7,16 @@ import Footer from './components/Footer'
 
 import "./styles/App.scss"
 import "./styles/Home.scss"
-import "./styles/Do.scss"
+import "./styles/do.scss"
 import "./styles/CardStyle.scss"
 import "./styles/Footer.scss"
 import "./styles/Header.scss"
 import "./styles/WhyUs.scss"
-import "./styles/Intro.scss"
+import "./styles/intro.scss"
 import "./styles/Blogs.scss"
 import "./styles/Contact.scss"
 import "./styles/ourP.scss"
+import "./styles/Brands.scss"
 import BookNow from './components/BookNow'
 import OurProduct from './components/OurProduct'
 
